@@ -1,0 +1,29 @@
+# OpenSSL source is obtained separately
+/third_party/
+
+# Build output
+/build_openssl/
+/backups/
+/ta/out/
+
+# Compiler output
+*.o
+*.a
+*.elf
+*.ta
+*.d
+*.cmd
+*.so
+
+# Executables
+/host/mlkem_client
+
+# Logs and temporary files
+*.log
+*.bak
+*.tmp
+*.tar.gz
+
+# Sensitive material
+*.pem
+*.key
